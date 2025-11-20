@@ -198,7 +198,7 @@
       "name": "Enum",
       "scope": "entity.name.type.enum, storage.type.enum",
       "settings": {
-        "foreground": "#FF7F50"
+        "foreground": "#bdcfef"
       }
     },
     {
@@ -415,7 +415,7 @@
       "name": "Variables",
       "scope": "variable, meta.selector.css",
       "settings": {
-        "foreground": "#E26674"
+        "foreground": "#89b080"
       }
     },
     {
@@ -429,7 +429,7 @@
       "name": "Classes",
       "scope": "support.class, entity.name.class, entity.name.type.class",
       "settings": {
-        "foreground": "#E76572"
+        "foreground": "#FF7F50"
       }
     },
     {

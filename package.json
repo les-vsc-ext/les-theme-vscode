@@ -1,40 +1,40 @@
 {
-    "name": "personal-theme",
-    "displayName": "Personal Theme",
-    "description": "Dark Color Theme based on Highlighter for Atom",
-    "version": "0.3.0",
-    "publisher": "fllesser",
-    "engines": {
-        "vscode": "^1.80.0",
-        "node": ">=18.0.0",
-        "npm": ">=9.0.0"
-    },
-    "scripts": {
-        "package": "npx vsce package --out personal-theme.vsix",
-        "code-install": "npx vsce package --out personal-theme.vsix && code --install-extension personal-theme.vsix",
-        "ant-install": "npx vsce package --out personal-theme.vsix && Antigravity --install-extension personal-theme.vsix"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "theme",
-        "atom",
-        "dark",
-        "one dark"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/fllesser/electron-theme-vscode"
-    },
-    "icon": "images/icon.png",
-    "contributes": {
-        "themes": [
-            {
-                "label": "Personal",
-                "uiTheme": "vs-dark",
-                "path": "./themes/color-theme.json"
-            }
-        ]
-    }
+  "name": "les-theme",
+  "displayName": "Les Theme",
+  "description": "Dark Color Theme based on Highlighter for Atom",
+  "version": "0.3.0",
+  "publisher": "fllesser",
+  "engines": {
+    "vscode": "^1.80.0",
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "package": "npx vsce package --out les-theme.vsix",
+    "code-install": "npx vsce package --out les-theme.vsix && code --install-extension les-theme.vsix",
+    "ant-install": "npx vsce package --out les-theme.vsix && Antigravity --install-extension les-theme.vsix"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "atom",
+    "dark",
+    "one dark"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fllesser/les-theme-vscode"
+  },
+  "icon": "images/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Leseme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/les-color-theme.json"
+      }
+    ]
+  }
 }

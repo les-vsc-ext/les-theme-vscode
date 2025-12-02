@@ -1,13 +1,13 @@
 {
   "type": "dark",
-  "name": "FLLTheme",
+  "name": "Leseme",
   "colors": {
     "activityBar.background": "#141820",
     "activityBarBadge.background": "#4B76CF",
     "activityBarBadge.foreground": "#ffffff",
-    "checkbox.border": "#4B76CF",
+    "checkbox.border": "#6a7f78",
     "checkbox.background": "#1C212E",
-    "checkbox.foreground": "#ffffff",
+    "checkbox.foreground": "#4B76CF",
     "diffEditor.insertedTextBackground": "#66f0c213",
     "dropdown.background": "#141820",
     "editor.background": "#212836",
@@ -117,13 +117,6 @@
         "foreground": "#e9b684"
       }
     },
-    // {
-    //   "name": "Number",
-    //   "scope": "constant.numeric",
-    //   "settings": {
-    //     "foreground": "#58b4ff"
-    //   }
-    // },
     {
       "name": "Built-in constant",
       "scope": "constant.language",
@@ -138,20 +131,6 @@
         "foreground": "#AC58FF"
       }
     },
-    // {
-    //   "name": "Variable",
-    //   "scope": "variable",
-    //   "settings": {
-    //     "foreground": "#56B6C2"
-    //   }
-    // },
-    // {
-    //   "name": "Storage",
-    //   "scope": "storage",
-    //   "settings": {
-    //     "foreground": "#FF5BA2"
-    //   }
-    // },
     {
       "name": "Storage type",
       "scope": "storage.type",
@@ -389,8 +368,6 @@
       "name": "Keywords",
       "scope": "keyword",
       "settings": {
-        // #E95293
-        // #D59DF6
         "foreground": "#D59DF6",
         "fontStyle": "italic"
       }
@@ -399,8 +376,6 @@
       "name": "Variables",
       "scope": "variable, meta.selector.css",
       "settings": {
-        // #89b080
-        // 
         "foreground": "#98bb90"
       }
     },
@@ -640,9 +615,7 @@
       }
     },
     {
-      "scope": [
-        "beginning.punctuation.definition.list.markdown"
-      ],
+      "scope": ["beginning.punctuation.definition.list.markdown"],
       "settings": {
         "foreground": "#EF596F"
       }
@@ -667,17 +640,13 @@
       }
     },
     {
-      "scope": [
-        "text.html.markdown string.unquoted.plain.out.yaml"
-      ],
+      "scope": ["text.html.markdown string.unquoted.plain.out.yaml"],
       "settings": {
         "foreground": "#506686"
       }
     },
     {
-      "scope": [
-        "text.html.markdown entity.name.tag.yaml"
-      ],
+      "scope": ["text.html.markdown entity.name.tag.yaml"],
       "settings": {
         "foreground": "#97a7c8"
       }

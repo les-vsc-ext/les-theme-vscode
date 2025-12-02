@@ -10,6 +10,5 @@ Dark theme based on [Electron Highlighter](https://github.com/mikemcbride/electr
 
 
 ```sh
-npx vsce package --out personal-theme.vsix && ls -la personal-theme.vsix && code --install-extension 
-personal-theme.vsix
+npm run code-install
 ```

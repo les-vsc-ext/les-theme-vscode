@@ -25,7 +25,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fllesser/les-theme-vscode"
+    "url": "https://github.com/les-vsc-ext/les-theme-vscode"
   },
   "icon": "images/icon.png",
   "contributes": {

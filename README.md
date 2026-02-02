@@ -1,4 +1,4 @@
-# Electron Color Theme
+# Les Color Theme
 
 Dark theme based on [Electron Highlighter](https://github.com/mikemcbride/electron-highlighter-syntax) for Atom.
 

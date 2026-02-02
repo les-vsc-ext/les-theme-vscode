@@ -4,10 +4,7 @@ Dark theme based on [Electron Highlighter](https://github.com/mikemcbride/electr
 
 ## Screenshots
 
-![HTML syntax highlight](images/electron-theme-html.png)
-![CSS syntax highlight](images/electron-theme-css.png)
-![JavaScript syntax highlight](images/electron-theme-js.png)
-
+![JavaScript syntax highlight](images/ts.png)
 
 ```sh
 npm run code-install

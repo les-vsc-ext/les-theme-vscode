@@ -2,7 +2,7 @@
   "name": "les-theme",
   "displayName": "Les Theme",
   "description": "Dark Color Theme based on Highlighter for Atom",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "publisher": "fllesser",
   "engines": {
     "vscode": "^1.80.0",
